@@ -1,0 +1,6 @@
+(define (problem monkey-test)
+   (:domain monkey-domain)
+   (:objects a b c)
+   (:init (location a) (location b) (location c) (at monkey a) (at bananas b) 
+          (at box c) (height monkey low) (height bananas high) (heigt box low))
+   (:goal (and (hasbananas) (height monkey low))))
